@@ -1,0 +1,158 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background: rgb(230, 230, 230);
+    ;
+}
+
+.body__otherColor {
+    background: rgb(255, 255, 255);
+} 
+
+.article {
+    max-width: 1200px;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px rgb(204, 204, 204);
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 23px;
+}
+
+.article__importantText {
+
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.article__table {
+
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.article__navigation {
+    color: rgb(220, 20, 60);
+}
+
+.article__buttons {
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(0, 128, 128);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.article__mainHeader {
+    line-height: normal;
+    margin: 40px auto;
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+}
+
+.article__subHeader {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.article__paragraph--strong {
+    font-weight: bold;
+}
+
+.article__header {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 26px;
+    line-height: normal;
+}
+
+.article__paragraph--bold {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.article__title {
+    font-size: 20px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.article__caption {
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.article__tableRow:hover {
+    background: rgb(204, 255, 255)
+}
+
+.article__tableCell {
+    border: 2px solid;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.article__tableTitle {
+    background: rgb(0, 128, 128);
+    border: 2px solid;
+    padding: 20px;
+    font-weight: 25px;
+    font-size: 20px;
+}
+
+.article__tableTitle:hover {
+    background:rgb(204, 255, 255)
+}
+
+.article__table{
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.article__button{
+    margin: 40px auto 20px;
+    display: block;
+    max-width: 200px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 8px #000000;
+}
+
+.article__button:hover {
+    background: rgb(0, 128, 128);;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.article.tableContainer {
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    overflow-x: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.article__buttons:hover {
+    background: rgb(0, 128, 128);;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
