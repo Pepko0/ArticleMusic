@@ -1,0 +1,23 @@
+.header {
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px rgb(204, 204, 204);
+    padding: 4px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    font-size: 25px;
+    font-weight: normal;
+};
+
+.header__title {
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px rgb(204, 204, 204);
+    padding: 4px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    font-size: 25px;
+    font-weight: normal;
+};

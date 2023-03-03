@@ -6,6 +6,48 @@ html {
     box-sizing: inherit;
 }
 
+article.button {
+    max-width: 1200px;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px rgb(204, 204, 204);
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .body {
     background: rgb(230, 230, 230);
     ;
@@ -39,25 +81,6 @@ html {
     font-size: 30px;
     font-weight: bold;
     margin-top: 5px;
-}
-
-.article__navigation {
-    color: rgb(220, 20, 60);
-}
-
-.article__buttons {
-    text-decoration: none;
-    margin-right: 20px;
-    color: rgb(0, 128, 128);
-    font-weight: bold;
-    font-size: 17px;
-}
-
-.article__mainHeader {
-    line-height: normal;
-    margin: 40px auto;
-    color: rgb(0, 0, 0);
-    font-size: 65px;
 }
 
 .article__subHeader {
@@ -125,15 +148,6 @@ html {
     text-align: center;
     width: 100%;
     background-color: rgb(255, 255, 255);
-}
-
-.article__button{
-    margin: 40px auto 20px;
-    display: block;
-    max-width: 200px;
-    background: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
-    box-shadow: 2px 2px 8px #000000;
 }
 
 .article__button:hover {

@@ -1,0 +1,9 @@
+.button {
+    margin: 40px auto 20px;
+    display: block;
+    max-width: 200px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 8px #000000;
+}
+

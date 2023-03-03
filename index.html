@@ -9,8 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
         integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/icon.png">
     <title>World of Music!</title>
     <link href="CSS/aricle.css" rel="stylesheet">
+    <link href="CSS/header.css" rel="stylesheet">
+    <link href="CSS/navigation.css" rel="stylesheet">
+    <link href="CSS/button.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
     <script defer src="script/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto:ital@1&display=swap"
         rel="stylesheet">
@@ -19,24 +24,24 @@
 </head>
 
 <body class="body">
-    <article class="article">
-        <header class="article__mainHeader">Witaj w świecie muzyki!</header>
+    <header class="header">
+        <h1>Witaj w świecie muzyki!</h1>
+    </header>
 
-        <nav class="article__navigation">
-            <a class="article__buttons" title="Czym jest muzyka" href="#about-music">Czym jest muzyka</a>
-            <a class="article__buttons"
-                title="3 poparte badaniami korzyści dla naszego życia płynące ze słuchania muzyki"
-                href="#benefits">Korzyści ze słuchania muzyki</a>
-            <a class="article__buttons" title="Badania przeprowadzone zarówno u starszych osoób jak i mlodzieży"
-                href="#table">Czego lubimy
-                słuchać</a>
-        </nav>
+    <nav class="navigation">
+        <a class="navigation__buttons" title="Czym jest muzyka" href="#about-music">Czym jest muzyka</a>
+        <a class="navigation__buttons"
+            title="3 poparte badaniami korzyści dla naszego życia płynące ze słuchania muzyki" href="#benefits">Korzyści
+            ze słuchania muzyki</a>
+        <a class="navigation__buttons" title="Badania przeprowadzone zarówno u starszych osoób jak i mlodzieży"
+            href="#table">Czego lubimy
+            słuchać</a>
+    </nav>
 
-        <button class="article__button">Włącz <span class="article__themeName">białe</span> tło</button>
     </article>
     <section id="about-music">
         <article class="article">
-            <h1 class="article__subHeader">Czym jest muzyka?</h1>
+            <h2 class="article__subHeader">Czym jest muzyka?</h2>
 
             <p class="article__paragraph"><span class="article__paragraph--strong">Muzyka</span>- sztuka organizacji
                 struktur dźwiękowych w czasie.
@@ -142,7 +147,7 @@
     </section>
     <section id="table">
         <article class="article">
-            <h3 class="article__header">Czego lubimy słuchać</h3>
+            <h2 class="article__header">Czego lubimy słuchać</h2>
             <table class="article__table">
                 <caption class="article__caption">Czego słuchają młodzi ludzie</caption>
                 <tr class="article__tableRow">
@@ -187,11 +192,16 @@
             </div>
         </article>
     </section>
-    <article class="article">
-    <footer>
+
+    <div class="article">
+        <button class="article__button">Włącz <span class="article__themeName">białe</span> tło</button>
+    </div>
+
+    <article class="footer">
+        <footer>
             <p>Stronkę przygotował dla was <span class="article__paragraph--strong">Kacper Lewko</span></p>
-    </footer>
-</article>
+        </footer>
+    </article>
 </body>
 
 </html>

@@ -11,7 +11,6 @@
         
     };
     
-    // Funkcja init odpala się na samym początku
     const init = () => {
         const buttonChangeColor = document.querySelector(".article__button");
         buttonChangeColor.addEventListener("click", toggleBackground );
