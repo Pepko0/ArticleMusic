@@ -35,6 +35,13 @@ html {
     margin-top: 50px;
 }
 
+.article__header {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 26px;
+    line-height: normal;
+}
+
 .article__subHeader {
     padding-top: 20px;
     padding-bottom: 40px;
@@ -43,13 +50,6 @@ html {
 
 .article__paragraph--strong {
     font-weight: bold;
-}
-
-.article__header {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    font-size: 26px;
-    line-height: normal;
 }
 
 .article__paragraph--bold {
