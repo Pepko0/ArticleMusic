@@ -19,3 +19,6 @@
     display: inline-block;
 }
 
+.navigation__buttons:hover {
+    color: rgba(0, 128, 128, 0.637);
+};
