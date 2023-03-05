@@ -1,7 +1,8 @@
 .footer {
     max-width: 100%;
     margin:auto;
-    background-color: rgb(255, 255, 255);
+    background-color: teal;
+    color: white;
     box-shadow: 2px 2px 8px rgb(204, 204, 204);
     padding: 5px;
     text-align: center;

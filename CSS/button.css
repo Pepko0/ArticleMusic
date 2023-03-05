@@ -2,8 +2,39 @@
     margin: 40px auto 20px;
     display: block;
     max-width: 200px;
+    height: 20px;
     background: rgb(255, 255, 255);
     border: 1px solid rgb(0, 0, 0);
     box-shadow: 2px 2px 8px #000000;
 }
 
+article.button {
+    max-width: 1200px;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px rgb(204, 204, 204);
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 23px;
+}
+
+.article__button {
+    border: solid 1px teal;
+    border-radius: 5px;
+    font-size: 35px;
+}
+
+.article__buttons:hover {
+    background: rgb(0, 128, 128);;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.article__button:hover {
+    background: rgb(0, 128, 128);;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+}
