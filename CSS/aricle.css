@@ -15,6 +15,16 @@ html {
     background: rgb(255, 255, 255);
 } 
 
+.header__title {
+    max-width: 1750px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    font-size: 35px;
+    color: teal;
+    margin:50px auto 35px;
+    padding-top: 15px;
+}
+
 .article {
     max-width: 1600px;
     margin:auto;
@@ -56,24 +66,6 @@ html {
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: 0px;
-}
-
-.header__title {
-    max-width: 1750px;
-    font-family: 'Montserrat', sans-serif;
-    line-height: normal;
-    font-size: 35px;
-    color: teal;
-    margin:50px auto 35px;
-    padding-top: 15px;
-}
-
-.article__background {
-    margin: auto;
-    max-width: 1600px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 20px;
 }
 
 .article__title {
