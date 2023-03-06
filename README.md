@@ -20,4 +20,4 @@ If the background color is wrong, You can **change them** with the button at the
 
 ### Link to my website: https://pepko0.github.io/ArticleMusic/
 
-This is **beta** version 
+version **beta**
